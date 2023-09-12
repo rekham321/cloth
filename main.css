@@ -1,0 +1,161 @@
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+
+
+/* WRAP SECTIONS */
+
+/* hello */
+#hello {
+	width: 100%;
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+#hello h1 {
+	font-size: 90px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #84210B;
+}
+
+#hello h2 {
+	color: #750d0d;
+	font-weight: 400;
+}
+
+/* Green */
+#green {
+	background-color: #84210B;
+	padding-top: 100px;
+	margin-bottom: 0px;
+	padding-bottom: 100px;
+}
+
+#green h3 {
+	color: white;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+#green p {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+}
+	
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fa {  
+	padding: 20px;  
+  text-align: center;  
+	margin: 5px 2px;  
+	font-size: 30px;  
+	width: 50px;  
+  }  
+  .fa-facebook {  
+	background: #3B5998;  
+	color: white;  
+  }  
+  .fa-twitter {  
+	background: #55ACEE;  
+	color: white;  
+  }  
+  .fa-pinterest {  
+	background: #cb2027;  
+	color: white;  
+  }  
+  .fa-linkedin {  
+	background: #007bb5;  
+	color: white;  
+  }  
+  .fa-instagram {  
+	background: #125688;  
+	color: white;  
+  }  
+  .fa-youtube {  
+	background: #bb0000;  
+	color: white;  
+  }  
+  .fa-google {  
+	background: #dd4b39;  
+	color: white;  
+  }  
+  .fa-snapchat-ghost {  
+	background: #fffc00;  
+	color: white;  
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+  }  
+  .fa-skype {  
+	background: #00aff0;  
+	color: white;  
+  }  
+  .fa:hover {  
+	  opacity: 0.9;  
+  }  
+
+
+
+
+
+  /*REKHEM-logo*/
+  .REKHEM-logo{
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+  }
+  
